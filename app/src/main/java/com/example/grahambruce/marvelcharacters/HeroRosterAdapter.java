@@ -38,6 +38,8 @@ public class HeroRosterAdapter extends ArrayAdapter<Hero> {
         TextView publisher = (TextView) listItemView.findViewById(R.id.publisher);
         publisher.setText(currentHero.getPublisher());
 
+
+
         listItemView.setTag(currentHero);
 
         return listItemView;
